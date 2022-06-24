@@ -11,7 +11,7 @@ export const StateContext = ({ children }) => {
     const [totalQuantities, setTotalQuantities] = useState(0);
     const [qty, setQty] = useState(1);
 
-    
+
 
     const onAdd = (product, quantity) => {
         const checkProductInCart = cartItems.find((item) => item._id === product._id);
@@ -62,5 +62,7 @@ export const StateContext = ({ children }) => {
         </Context.Provider>
     )
 }
+
+// this is just a random comment 
 
 export const useStateContext = () => useContext(Context);
