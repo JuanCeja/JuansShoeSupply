@@ -41,3 +41,5 @@ const Success = () => {
 }
 
 export default Success
+
+// https://juansshoesupply.sanity.studio/
