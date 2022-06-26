@@ -6,14 +6,14 @@ import Footer from './Footer';
 
 const Layout = ({ children }) => {
   return (
-    <div className='layout'>
+    <div className="layout">
       <Head>
         <title>JC's Shoe Supply</title>
       </Head>
       <header>
         <Navbar />
       </header>
-      <main className='main-container'>
+      <main className="main-container">
         {children}
       </main>
       <footer>
