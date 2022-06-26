@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { BsBag, BsBagCheckFill } from 'react-icons/bs';
+import { BsBagCheckFill } from 'react-icons/bs';
 
 import { useStateContext } from '../context/StateContext';
 import { runFireWorks } from '../lib/utils';

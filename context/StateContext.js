@@ -34,8 +34,8 @@ export const StateContext = ({ children }) => {
             product.quantity = quantity;
 
             setCartItems([...cartItems, { ...product }]);
-            toast.success(`${qty} ${product.name} added to the cart.`);
         }
+        toast.success(`${qty} ${product.name} added to the cart.`);
     }
 
     const onRemove = (product) => {
@@ -50,7 +50,6 @@ export const StateContext = ({ children }) => {
     const toggleCartItemQuantity = (id, value) => {
         foundProduct = cartItems.find((item) => item._id === id);
         index = cartItems.findIndex((product) => product._id === id);
-        
         const newCartItems = cartItems.filter((item) => item._id !== id);
 
         if (value === 'inc') {
