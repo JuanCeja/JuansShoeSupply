@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Juan's_Shoe_Supply](https://user-images.githubusercontent.com/94949664/175838889-8336ce15-b58c-4537-b6e5-e9d9c9ed6915.png)
 
-## Getting Started
+### A user-friendly eCommerce application that users can browse through to look at different shoe options to purchase. Users can add multiple or remove multiple items from their cart. User's card information and checkout process will be handled using Stripe which also supports 135 different currencies.
 
-First, run the development server:
+## Tech Stack
+- Next.js
+- SANITY
+- Stripe API
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Home
+![shoeSupplyHome](https://user-images.githubusercontent.com/94949664/175839127-e13c9902-48b7-48cd-bd98-c64faef5c71a.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Shoe Details and Cart Functionality
+![shoeSupplyDetails](https://user-images.githubusercontent.com/94949664/175839301-e76a4b06-7e6a-4ed9-9602-e55e025feb67.gif)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Stripe Functionality and Success Page
+![succesShoeSupply](https://user-images.githubusercontent.com/94949664/175839581-65743696-0e34-40a3-8941-f07619b802bc.gif)
